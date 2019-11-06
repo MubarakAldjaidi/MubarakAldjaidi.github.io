@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body style="background-color: powderblue;">
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="over-mij.html">Over Mij</a>
+        <a href="vaardigheden.html">Vaardigheden</a>
+        <a href="projecten.html">Projecten</a>
+        <a href="nieuws.html">Laatste nieuws</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+
+      <h3>Vaardigheden</h3>  
+      
+      
+      
+      <div class="row">
+          <div class="column">
+            <h2>HTML/CSS/Javascript</h2>
+            <p>Website vormgeving</p>
+            <p>Front-End Development</p>
+            <p>Back-End Development</p>
+          </div>
+          <div class="column">
+            <h2>Microsoft</h2>
+            <p>Microsoft Word</p>
+            <p>Microsoft Excel</p>
+            <p>Microsoft Powerpoint</p>
+          </div>
+          <div class="column">
+              <h2>Computer assemblage</h2>
+              <p>Het assembleren van een Computer</p>
+              <p>Het de-assembleren van een Computer</p>
+              <p>Computer tests, overclocken, bottleneck fixes, Windows installeren en Windows configureren</p>
+            </div>
+          </div>
+
+    <p id="date"></p>
+    <script>
+      n = new Date();
+      y = n.getFullYear();
+      m = n.getMonth() + 1;
+      d = n.getDate();
+      document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
+    </script>
+
+        
+</body>
+      </div>
